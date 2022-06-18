@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  width: 100%;
+  font-size: 18px;
+}
+p {
+  font-size: 15px;
+}
+
+h1 {
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+}
+
+/*################ HEADER ##################*/
+
+.header {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  padding-bottom: 40px;
+}
+
+.logo-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin-left: 50px;
+}
+
+.logo-button {
+  width: 150px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  box-shadow: 2px 5px 5px hsl(192, 81%, 89%);
+}
+
+.header-note {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.note {
+  width: 40%;
+}
+
+.note h1 {
+  line-height: 1.5em;
+  color: hsl(192, 100%, 9%);
+}
+
+.note p {
+  line-height: 1.5em;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  color: hsl(192, 100%, 9%);
+}
+
+.note button {
+  width: 200px;
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  border: 2px solid hsl(322, 100%, 66%);
+  font-weight: 700;
+  color: hsl(193, 100%, 96%);
+  height: 50px;
+}
+
+.note button:hover {
+  background-color: hsl(322, 100%, 84%);
+  cursor: pointer;
+  transition: 0.4s;
+  border: none;
+}
+
+.header-note-img img {
+  width: 535px;
+  height: 380px;
+}
+
+/*################ MAIN ##################*/
+
+main {
+  margin-top: 40px;
+  padding: 85px;
+}
+
+.grow {
+  border: 5px solid white;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+  margin-bottom: 35px;
+  box-shadow: 0px 5px 10px 2px hsl(190, 26%, 91%);
+}
+
+.grow-note {
+  width: 40%;
+}
+
+.grow-note p {
+  padding-top: 20px;
+  color: hsl(208, 11%, 55%);
+  line-height: 1.5em;
+}
+
+.grow-img img {
+  width: 400px;
+  height: 300px;
+}
+
+.flow {
+  border: 5px solid white;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+  margin-bottom: 35px;
+  box-shadow: 0px 5px 10px 2px hsl(190, 26%, 91%);
+}
+
+.flow-note {
+  width: 40%;
+}
+
+.flow-note p {
+  padding-top: 20px;
+  color: hsl(208, 11%, 55%);
+  line-height: 1.5em;
+}
+
+.flow-img img {
+  width: 400px;
+  height: 300px;
+}
+
+.user {
+  border: 5px solid white;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+  box-shadow: 0px 5px 10px 2px hsl(190, 26%, 91%);
+}
+
+.user-note {
+  width: 40%;
+}
+
+.user-note p {
+  padding-top: 20px;
+  color: hsl(208, 11%, 55%);
+  line-height: 1.5em;
+}
+
+.user-img img {
+  width: 400px;
+  height: 300px;
+}
+
+/*################ MINI SECTION ##################*/
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.box {
+  /* border: 5px solid gray; */
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 3px 5px 1px hsl(190, 26%, 91%);
+}
+
+.box h2 {
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.box button {
+  text-align: center;
+  width: 300px;
+  padding: 15px;
+  border-radius: 30px;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  border: 2px solid hsl(322, 100%, 66%);
+  font-weight: 700;
+  color: hsl(193, 100%, 96%);
+  height: 60px;
+  font-size: 16px;
+  box-shadow: 2px 5px 5px hsl(190, 83%, 93%);
+}
+
+.box button:hover {
+  background-color: hsl(322, 100%, 84%);
+  cursor: pointer;
+  transition: 0.4s;
+  border: none;
+}
+
+/*################ FOOTER ##################*/
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(193, 100%, 96%);
+  margin-top: -5%;
+}
+
+.footer {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  color: hsl(193, 100%, 96%);
+  width: 30%;
+}
+
+.contact p {
+  padding-top: 25px;
+}
+
+svg {
+  color: hsl(193, 100%, 96%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(193, 100%, 96%);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.links p {
+  padding-bottom: 15px;
+}
+
+.links-2 p {
+  padding-bottom: 15px;
+}
+
+.social i {
+  color: hsl(193, 100%, 96%);
+  border-radius: 50%;
+  padding: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+i {
+  border: 1px solid hsl(193, 100%, 96%);
+  border-radius: 70%;
+  padding: 20px;
+}
+
+.social i:hover {
+  color: hsl(322, 100%, 66%);
+}
+
+.social {
+  margin-top: 25px;
+}
+
+.social p {
+  margin-top: 90px;
+}
+
+/* animation */
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce;
+  animation-duration: 5s;
+}
+
+/*################ MEDIA SCREEN ##################*/
+
+@media screen and (max-width: 375px) {
+  .header {
+    background-image: url(images/bg-hero-mobile.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding-bottom: 40px;
+  }
+
+  .logo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    margin-left: 5px;
+  }
+
+  .logo-header img {
+    width: 120px;
+  }
+
+  .logo-button {
+    width: 90px;
+    font-weight: 700;
+    /* padding: 10px; */
+    font-size: 10px;
+  }
+
+  .header-note {
+    flex-direction: column;
+  }
+
+  .note {
+    width: 70%;
+    text-align: center;
+  }
+
+  .note button {
+    width: 300px;
+    margin-bottom: 60px;
+  }
+
+  .header-note-img img {
+    width: 320px;
+    height: 210px;
+  }
+
+  .main {
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    /* width: 100%; */
+  }
+
+  .grow {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .grow-note {
+    width: 80%;
+  }
+
+  .grow-img img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .flow {
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .flow-note {
+    width: 80%;
+  }
+
+  .flow-img img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .user {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .user-note {
+    padding-top: 40px;
+    width: 80%;
+  }
+
+  .user-img img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .box {
+    width: 80%;
+  }
+
+  .box button {
+    width: 190px;
+  }
+
+  footer {
+    margin-top: -30%;
+    padding-top: 160px;
+    padding-left: 35px;
+  }
+
+  .footer {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .links {
+    padding-top: 20px;
+  }
+  .social {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social p {
+    margin-top: 50px;
+    margin-left: 0;
+    font-size: 13px;
+    margin-bottom: 40px;
+  }
+}
